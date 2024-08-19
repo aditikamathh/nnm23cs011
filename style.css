@@ -1,0 +1,65 @@
+*Reset some default styles */
+body,h1,h2,p,ul,li{
+    margin:0;
+    padding:0;
+}
+/*Global Styles*/
+body{
+font-family:Arial ,sans-serif;
+line-height:1.6;   
+}
+header{
+    background-color:#3219a0;
+    color:#b5c9a0;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.logo img{
+    max-width:100px;
+    height:auto;
+}
+.header-content{
+    text-align:left;
+}
+nav{
+    background-color:bisque;
+}
+.menu{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    padding:1rem 0;
+}
+.menu li{
+    margin:0 1rem;
+    position: relative;
+}
+.menu a{
+    color:blue;
+}
+.menu a:hover{
+    color:black;
+}
+.submenu-content{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:beige;
+    z-index:1;
+}
+.submenu:hover .submenu-content{
+    display:block;
+}
+main{
+    padding:2rem;
+    font-family:serif;
+}
+footer{
+    background-color:rgb(40, 76, 105);
+    color:antiquewhite;
+    text-align:center;
+}
